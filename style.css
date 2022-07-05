@@ -1,0 +1,174 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #E5E5E5;
+}
+
+header{
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+header input{
+    padding: 1em;
+    width:15%;
+    background: url('/assets/assets/icon-search.svg') no-repeat 5px / 1.2em;
+    background-color: #FFFFFF;
+
+}
+header input::placeholder{
+    padding: 1.5em;
+}
+
+header input:focus{
+    outline: none;
+    padding-left: 0.5em;
+    background: none;
+    background-color: #FFFFFF;
+    
+}
+.texto{
+    position: absolute;
+    left: 5%;
+    width: 25%;
+    margin: 5em 0; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* border: 1px solid black; */
+}
+.texto h2{
+    /* border: #000 1px solid; */
+    width: 75%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+}
+.texto span{
+    /* border: #000 1px solid; */
+    display: block;
+    width: 60%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.texto p{
+    /* border: #000 1px solid; */
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9C9696;
+}
+.texto button{
+    /* border: #000 2px solid; */
+    width: 65%;
+    height: 10vh;
+    background: #FF0000;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.imagem-tenis{
+    background-color: #C4C4C4;
+    /* border: #000 1px solid; */
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 65%;
+    height: 83.4vh;
+}
+
+.tenis-ampliado{
+    /* border: #000 1px solid; */
+    position: relative;
+    top: 100px;
+    left: 30%;
+}
+
+.tenis-flex{
+    display: inline-flex;
+    justify-content: space-between;
+    /* border: #000 1px solid; */
+    position: relative;
+    top: 12%;
+    left: 0.5em;
+    width: 100%;
+    height: 20vh;
+    padding: 0 1em;
+}
+
+footer{
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.explore-mais{
+   align-self: flex-end;
+   width: 437px;
+   height: 150px;
+   background-color: #000;
+   color: #FFFFFF;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+.conteudo-explore-mais{
+    position: relative;
+    top: 40%;
+    left: 30%;
+}
+
+
+
+
+
